@@ -1,0 +1,43 @@
+@font-face {
+    font-family: una;
+    src: url(fonts/Oswald-Medium.ttf);
+}
+@font-face {
+    font-family: sekan;
+    src: url(fonts/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: tres;
+    src: url(fonts/Oswald-Light.ttf);
+}
+
+.sev_h1{
+    margin-left: 20px;
+    
+}
+.sev_h1 a{
+    color: black;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+.home{
+    display: flex;
+    gap: 800px;
+    font-family: sekan;
+}
+.home a{
+    text-decoration: none; 
+    font-size: 37px;
+    color: black;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+}
+.items{
+    word-spacing: 40px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.bottom a{
+    text-decoration: none;
+    gap: 20px;
+}
